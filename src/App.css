@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  background: #282D35;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #21222A;
+  justify-content: space-between;
+
 }
 
-.App-link {
-  color: #61dafb;
+.nav-right{
+  display: flex;
+  align-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.nav-title{
+  width: 123px;
+height: 22px;
+flex-shrink: 0;
+  color: #61DAFB;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1px;
+margin-top: 31px;
+margin-bottom: 37px;
+}
+
+.nav-logo{
+  width: 29px;
+  height: 29px;
+  flex-shrink: 0; 
+  align-self: center;
+  margin: 31px 10px 31px 26px;
+}
+
+.nav-title-left{
+  width: 259px;
+height: 21px;
+flex-shrink: 0;
+  color: #DEEBF8;
+text-align: right;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 38px 27px 32px;
+}
+
+main{
+  padding: 57px 27px;
+  color: #FFF;
+  background-image: url(./reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-title{
+font-family: Inter;
+font-size: 39px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -2px;
+margin: 0;
+}
+
+.list{
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 46px;
+}
+
+.list > li{
+  padding-block: 10px;
+}
+
+.list li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
 }
